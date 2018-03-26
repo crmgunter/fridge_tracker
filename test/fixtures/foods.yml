@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  weight: 1
+  is_vegan: false
+  time_put_in_fridge: 2018-03-26
+  fridge: one
+
+two:
+  name: MyString
+  weight: 1
+  is_vegan: false
+  time_put_in_fridge: 2018-03-26
+  fridge: two

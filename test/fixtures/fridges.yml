@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  location: MyString
+  size: 1
+  has_food_in_it: false
+  has_drinks_in_it: false
+
+two:
+  brand: MyString
+  location: MyString
+  size: 1
+  has_food_in_it: false
+  has_drinks_in_it: false
