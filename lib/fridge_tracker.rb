@@ -120,7 +120,7 @@ def run_drink_menu(fridge)
   elsif user_descision == 3
     puts "Enter ID of drink you want to consume."
     drink_id = gets.chomp.to_i
-    puts "How many ounces do you want in this drink?"
+    puts "How many ounces do you want to drink?"
     ounces = gets.chomp.to_i
     drink = Fridge.find(fridge).drinks.find(drink_id)
     new_size = drink.size - ounces
